@@ -1,2 +1,5 @@
-# lamine-says
-JS drum game
+Javascript Simon
+================
+
+Demo at: 
+http://kellyking.me/projects/simon

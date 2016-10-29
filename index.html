@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--original HTML,CSS,JS code by Kelly King, www.kellyking.me, modified by Tim Villabona for Rambax MIT -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Waaw waaw!</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script data-main="js/main" src="js/lib/require.min.js"></script>
+</head>
+<body>
+
+	<div class="wrapper">
+		<h1>Lamine Says</h1>
+			<div class="game-board">
+				<div class="simon">
+					<ul>
+						<li class="tile gin" data-tile="1"></li>
+						<li class="tile pin" data-tile="2"></li>
+						<li class="tile pak" data-tile="3"></li>
+						<li class="tile tah" data-tile="4"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="game-info">
+				<h2>Round: <span data-round="0">0</span></h2>
+				<button data-action="start" >Kai!</button>
+				<p data-action="lose">You made it to <span data-round="0"></span> rounds!</p>
+			</div>
+<!--
+			<div class="game-options">
+
+
+				<h2>Game Options:</h2>
+				<input type="radio" name="mode" value="normal" checked>Normal<br>
+				<input type="radio" name="mode" value="sound-only">Sound Only<br>
+				<input type="radio" name="mode" value="light-only">Light Only<br>
+				<input type="radio" name="mode" value="free-board">Free board
+
+			</div>
+-->
+		<div data-action="sound"></div>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+</html>
